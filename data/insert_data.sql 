@@ -1,0 +1,51 @@
+INSERT INTO continents (name)
+VALUES
+('Asia'),
+('Europe'),
+('Africa'),
+('North America'),
+('South America'),
+('Australia'),
+('Antarctica');
+
+
+INSERT INTO countries (name, continent_id, population, area) VALUES
+('India',1,1400000000,3287263),
+('China',1,1440000000,9596961),
+('France',2,67000000,551695),
+('Germany',2,83000000,357022),
+('Nigeria',3,220000000,923768),
+('Egypt',3,110000000,1002450),
+('USA',4,331000000,9833520),
+('Canada',4,38000000,9984670),
+('Brazil',5,215000000,8515767),
+('Argentina',5,46000000,2780400),
+('Australia',6,26000000,7692024);
+
+
+INSERT INTO people (name, age) VALUES
+('John',30),
+('Alice',25),
+('Bob',40),
+('John',50),
+('Emma',35),
+('Liam',28),
+('Sophia',32),
+('Noah',22),
+('Olivia',45),
+('Ava',29);
+
+
+INSERT INTO person_country VALUES
+(1,7),
+(1,4),
+(2,3),
+(3,1),
+(3,7),
+(4,7),
+(4,2),
+(5,5),
+(6,1),
+(7,8),
+(8,9),
+(9,10);
